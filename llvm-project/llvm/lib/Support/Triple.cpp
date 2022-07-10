@@ -49,6 +49,8 @@ StringRef Triple::getArchTypeName(ArchType Kind) {
   case mips:           return "mips";
   case mipsel:         return "mipsel";
   case msp430:         return "msp430";
+  case myriscvx32      return "myriscvx32";
+  case myriscvx64      return "myriscvx64";
   case nvptx64:        return "nvptx64";
   case nvptx:          return "nvptx";
   case ppc64:          return "powerpc64";
